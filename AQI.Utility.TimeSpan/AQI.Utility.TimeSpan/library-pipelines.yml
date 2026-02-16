@@ -53,4 +53,4 @@ steps:
     command: 'push'
     packagesToPush: '$(Build.ArtifactStagingDirectory)/**/*.nupkg'
     nuGetFeedType: 'internal'
-    publishVstsFeed: 'afs-dev/AQIPrivateFeed'
+    publishVstsFeed: 'AQIPrivateFeed'
