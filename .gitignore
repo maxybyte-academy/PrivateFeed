@@ -8,3 +8,6 @@
 /.vs
 /AQI.Utility.TimeSpan/.vs/AQI.Utility.TimeSpan
 /AQI.Utility.TimeSpan/AQI.Utility.TimeSpan/obj
+/AQI.Utility.TimeSpan/AQI.Utility.TimeSpan/bin
+/AQI.Utility.TimeSpan/output
+*.nupkg
