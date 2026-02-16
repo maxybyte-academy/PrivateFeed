@@ -54,3 +54,5 @@ steps:
     packagesToPush: '$(Build.ArtifactStagingDirectory)/**/*.nupkg'
     nuGetFeedType: 'internal'
     publishVstsFeed: '$(System.TeamProject)/AQIPrivateFeed'
+  # Note: The Build Service must have 'Contributor' permission on the feed
+  # See AZURE_DEVOPS_SETUP.md for configuration instructions
