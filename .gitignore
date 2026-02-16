@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/aqi-notification-library/CopilotIndices/17.14.1577.30250
+/.vs/aqi-notification-library/FileContentIndex
+/.vs/aqi-notification-library/v17
+/.vs
+/AQI.Utility.TimeSpan/.vs/AQI.Utility.TimeSpan
+/AQI.Utility.TimeSpan/AQI.Utility.TimeSpan/obj

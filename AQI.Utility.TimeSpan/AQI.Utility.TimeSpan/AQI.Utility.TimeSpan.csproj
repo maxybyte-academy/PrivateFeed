@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackageId>AQI.Utility.TimeSpan.Formatter</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Tolulope Ademilua</Authors>
+    <Company>Riverty</Company>
+    <Product>Riverty TimeSpan Utility</Product>
+    <PackageTags>TimeSpan;Utility;AQI;C#;Library;DateTime;RelativeTime</PackageTags>
+    <Description>
+      Return human-friendly "time ago" formatter that converts a DateTime into a relative time string (like "5 minutes ago" or "2 days ago").
+    </Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>readme.md</PackageReadmeFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="docs\readme.md" Pack="true" PackagePath="\"/>
+  </ItemGroup>
+
+</Project>
