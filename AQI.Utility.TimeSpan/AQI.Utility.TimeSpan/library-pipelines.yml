@@ -47,11 +47,12 @@ steps:
     versioningScheme: 'off'
     packDirectory: '$(Build.ArtifactStagingDirectory)'
 
-- task: NuGetCommand@2
+- task: DotNetCoreCLI@2
   displayName: 'Push to Azure Artifacts'
   inputs:
     command: 'push'
     packagesToPush: '$(Build.ArtifactStagingDirectory)/**/*.nupkg'
     nuGetFeedType: 'internal'
-    publishVstsFeed: 'afs-dev/AQIPrivateFeed'
-    allowPackageConflicts: true
+    publishVstsFeed: '$(System.TeamProject)/AQIPrivateFeed'
+  # Note: The Build Service must have 'Contributor' permission on the feed
+  # See AZURE_DEVOPS_SETUP.md for configuration instructions
