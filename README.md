@@ -14,9 +14,13 @@ This POC contains a complete example of:
 
 ### View the Complete Documentation
 
+📊 **[CONFLUENCE_PRESENTATION.md](./CONFLUENCE_PRESENTATION.md)** - **Confluence presentation for team meetings** ⭐ NEW!
+
 📖 **[POC_DOCUMENTATION.md](./POC_DOCUMENTATION.md)** - Complete step-by-step guide
 
 📋 **[AZURE_DEVOPS_SETUP.md](./AZURE_DEVOPS_SETUP.md)** - Azure DevOps permissions and troubleshooting
+
+🚀 **[QUICK_REFERENCE.md](./QUICK_REFERENCE.md)** - Quick commands and templates
 
 ## 📚 What You'll Learn
 
@@ -101,20 +105,37 @@ This POC successfully demonstrates:
 
 ## 📖 Key Documentation Files
 
-1. **[POC_DOCUMENTATION.md](./POC_DOCUMENTATION.md)**
+1. **[CONFLUENCE_PRESENTATION.md](./CONFLUENCE_PRESENTATION.md)** ⭐ **NEW!**
+   - Professional presentation for Confluence
+   - Ready to copy/paste into Confluence pages
+   - Includes executive summary, architecture, challenges, and results
+   - Perfect for team presentations and stakeholder updates
+   - 24KB comprehensive presentation (763 lines)
+
+2. **[POC_DOCUMENTATION.md](./POC_DOCUMENTATION.md)**
    - Complete workflow from start to finish
    - Step-by-step instructions
    - Code examples
    - Best practices
    - Troubleshooting guide
 
-2. **[AZURE_DEVOPS_SETUP.md](./AZURE_DEVOPS_SETUP.md)**
+3. **[AZURE_DEVOPS_SETUP.md](./AZURE_DEVOPS_SETUP.md)**
    - Feed permissions setup
    - Common errors and solutions
    - Local development setup
    - Pipeline configuration details
 
-3. **[library-pipelines.yml](./AQI.Utility.TimeSpan/AQI.Utility.TimeSpan/library-pipelines.yml)**
+4. **[QUICK_REFERENCE.md](./QUICK_REFERENCE.md)**
+   - Essential commands at a glance
+   - Configuration templates
+   - Common issues reference table
+
+5. **[CONFLUENCE_IMPORT_GUIDE.md](./CONFLUENCE_IMPORT_GUIDE.md)**
+   - How to import the presentation into Confluence
+   - Customization tips
+   - Best practices for presenting
+
+6. **[library-pipelines.yml](./AQI.Utility.TimeSpan/AQI.Utility.TimeSpan/library-pipelines.yml)**
    - Production-ready pipeline configuration
    - Automated build, pack, push workflow
 
